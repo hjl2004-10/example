@@ -1,4 +1,4 @@
-# SillyTavern Extension Example
+# SillyTavern Extension tts and pictures
 
 这是一个用于 SillyTavern 的扩展，旨在提供生图和语音功能（TTS）。该扩展允许用户通过简单的设置生成图像和语音，提升用户体验。
 
