@@ -122,6 +122,9 @@ jQuery(async () => {
 
     // 加载设置
     await loadSettings();
+
+    $("#my_button").on("click", onButtonClick);
+    $("#example_setting").on("input", onExampleInput);
 });
 
 // 处理生图功能设置
@@ -147,10 +150,6 @@ document.getElementById('save_image_settings').addEventListener('click', () => {
     const apiKey = document.getElementById('image_api_key').value;
     localStorage.setItem('image_url', url);
     localStorage.setItem('image_api_key', apiKey);
-});
-
-document.getElementById('connect_image').addEventListener('click', () => {
-    // 连接逻辑
 });
 
 // 处理语音功能设置
