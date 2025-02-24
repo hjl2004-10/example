@@ -335,3 +335,8 @@ async function initializeVoiceUpload() {
 // 初始化设置
 loadImageSettings();
 loadTTSSettings();
+
+// 切换扩展内容的显示
+$('.toggle-button').on('click', function() {
+    $('.extension-content').toggle(); // 切换内容的显示状态
+});
