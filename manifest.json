@@ -7,5 +7,6 @@
     "css": "style.css",
     "author": "沐风的狗子",
     "version": "1.0.1",
-    "homePage": "yourUrlHere"
+    "homePage": "yourUrlHere",
+    "name": "st-image-tts"
 }
